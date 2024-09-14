@@ -34,12 +34,13 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
+import java.util.logging.Logger;
 
-import static java.lang.System.Logger.Level.*;
+import static java.util.logging.Level.*;
 
 public class NMEAMessageInputStreamReader {
 
-	private static final System.Logger LOG = System.getLogger(NMEAMessageInputStreamReader.class.getName());
+	private static final Logger LOG = Logger.getLogger(NMEAMessageInputStreamReader.class.getName());
 
 	public NMEAMessageInputStreamReader(List<String> nmeaStrings, Function<String, String> nmeaStringPreProcessor, Consumer<? super NMEAMessage> nmeaMessageHandler) {
 		Objects.requireNonNull(nmeaStrings, "nmeaStrings cannot be null.");
@@ -97,13 +98,15 @@ public class NMEAMessageInputStreamReader {
 			try {
 				NMEAMessage nmea = NMEAMessage.fromString(string);
 				nmeaMessageHandler.accept(nmea);
-				LOG.log(DEBUG, "Received: " + nmea.toString());
+				LOG.log(FINE , "Received: " + nmea.toString());
 			} catch (InvalidMessage invalidMessageException) {
 				LOG.log(WARNING, "Received invalid AIS message: \"" + string + "\"");
 			} catch (UnsupportedMessageType unsupportedMessageTypeException) {
 				LOG.log(WARNING, "Received unsupported NMEA message: \"" + string + "\"");
 			} catch (NMEAParseException parseException) {
 				LOG.log(WARNING, "Received non-compliant NMEA message: \"" + string + "\"");
+			} catch (NumberFormatException invalidFormat) {
+				LOG.log(WARNING, "Received invalid number in NMEA message: \"" + string + "\"");
 			}
 		}
 

@@ -23,7 +23,7 @@ public class IMO implements Serializable {
 	public IMO(int imo) {
 		this.imo = imo;
 	}
-	
+
 	public static IMO valueOf(int imo) {
 		return new IMO(imo);
 	}
@@ -53,7 +53,7 @@ public class IMO implements Serializable {
     /**
      * @deprecated Use {@link #intValue()} instead.
      */
-    @Deprecated(forRemoval = true)
+    @Deprecated
     public Integer getIMO() {
 	    return imo;
 	}

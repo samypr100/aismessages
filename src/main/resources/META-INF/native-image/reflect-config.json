@@ -1,0 +1,1042 @@
+[
+  {
+    "name": "[B"
+  },
+  {
+    "name": "[Lcom.fasterxml.jackson.databind.deser.BeanDeserializerModifier;"
+  },
+  {
+    "name": "[Lcom.fasterxml.jackson.databind.deser.Deserializers;"
+  },
+  {
+    "name": "[Lcom.fasterxml.jackson.databind.deser.KeyDeserializers;"
+  },
+  {
+    "name": "[Lcom.fasterxml.jackson.databind.deser.ValueInstantiators;"
+  },
+  {
+    "name": "[Lcom.fasterxml.jackson.databind.ser.BeanSerializerModifier;"
+  },
+  {
+    "name": "[Lcom.fasterxml.jackson.databind.ser.Serializers;"
+  },
+  {
+    "name": "[Ldk.tbsalling.aismessages.nmea.messages.NMEAMessage;"
+  },
+  {
+    "name": "com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+    "methods": [
+      {
+        "name": "<init>",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.AISMessage",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "getMetadata",
+        "parameterTypes": []
+      },
+      {
+        "name": "getNmeaMessages",
+        "parameterTypes": []
+      },
+      {
+        "name": "getNmeaTagBlock",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRepeatIndicator",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSourceMmsi",
+        "parameterTypes": []
+      },
+      {
+        "name": "isValid",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.AidToNavigationReport",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getAidType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getAssignedMode",
+        "parameterTypes": []
+      },
+      {
+        "name": "getAtoNStatus",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLatitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLongitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMessageType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getName",
+        "parameterTypes": []
+      },
+      {
+        "name": "getNameExtension",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOffPosition",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPositionAccurate",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPositionFixingDevice",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRaimFlag",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSecond",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSpare1",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSpare2",
+        "parameterTypes": []
+      },
+      {
+        "name": "getToBow",
+        "parameterTypes": []
+      },
+      {
+        "name": "getToPort",
+        "parameterTypes": []
+      },
+      {
+        "name": "getToStarboard",
+        "parameterTypes": []
+      },
+      {
+        "name": "getToStern",
+        "parameterTypes": []
+      },
+      {
+        "name": "getVirtualAid",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.BaseStationReport",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getCommunicationState",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDay",
+        "parameterTypes": []
+      },
+      {
+        "name": "getHour",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLatitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLongitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMessageType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMinute",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMonth",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPositionAccurate",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPositionFixingDevice",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRaimFlag",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSecond",
+        "parameterTypes": []
+      },
+      {
+        "name": "getYear",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.BinaryBroadcastMessage",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getApplicationSpecificMessage",
+        "parameterTypes": []
+      },
+      {
+        "name": "getBinaryData",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDesignatedAreaCode",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFunctionalId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMessageType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSpare",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.CachedDecodedValues",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.DataLinkManagement",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getIncrement1",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIncrement2",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIncrement3",
+        "parameterTypes": []
+      },
+      {
+        "name": "getIncrement4",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMessageType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOffsetNumber1",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOffsetNumber2",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOffsetNumber3",
+        "parameterTypes": []
+      },
+      {
+        "name": "getOffsetNumber4",
+        "parameterTypes": []
+      },
+      {
+        "name": "getReservedSlots1",
+        "parameterTypes": []
+      },
+      {
+        "name": "getReservedSlots2",
+        "parameterTypes": []
+      },
+      {
+        "name": "getReservedSlots3",
+        "parameterTypes": []
+      },
+      {
+        "name": "getReservedSlots4",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTimeout1",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTimeout2",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTimeout3",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTimeout4",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.DataReport",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.DynamicDataReport",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.ExtendedDynamicDataReport",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.Metadata",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getCategory",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDecoderVersion",
+        "parameterTypes": []
+      },
+      {
+        "name": "getReceived",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSource",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.PositionReport",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "getCommunicationState",
+        "parameterTypes": []
+      },
+      {
+        "name": "getCourseOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLatitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLongitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getNavigationStatus",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPositionAccuracy",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRaimFlag",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRateOfTurn",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawCourseOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawLatitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawLongitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawSpeedOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSecond",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSpecialManeuverIndicator",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSpeedOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTransponderClass",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTrueHeading",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.PositionReportClassAResponseToInterrogation",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getMessageType",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.PositionReportClassAScheduled",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getMessageType",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.ShipAndVoyageData",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getCallsign",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDataTerminalReady",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDestination",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDraught",
+        "parameterTypes": []
+      },
+      {
+        "name": "getEta",
+        "parameterTypes": []
+      },
+      {
+        "name": "getEtaAfterReceived",
+        "parameterTypes": []
+      },
+      {
+        "name": "getEtaDay",
+        "parameterTypes": []
+      },
+      {
+        "name": "getEtaHour",
+        "parameterTypes": []
+      },
+      {
+        "name": "getEtaMinute",
+        "parameterTypes": []
+      },
+      {
+        "name": "getEtaMonth",
+        "parameterTypes": []
+      },
+      {
+        "name": "getImo",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMessageType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPositionFixingDevice",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawDraught",
+        "parameterTypes": []
+      },
+      {
+        "name": "getShipName",
+        "parameterTypes": []
+      },
+      {
+        "name": "getShipType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getToBow",
+        "parameterTypes": []
+      },
+      {
+        "name": "getToPort",
+        "parameterTypes": []
+      },
+      {
+        "name": "getToStarboard",
+        "parameterTypes": []
+      },
+      {
+        "name": "getToStern",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTransponderClass",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.StandardClassBCSPositionReport",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getAssigned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getBand",
+        "parameterTypes": []
+      },
+      {
+        "name": "getCommunicationState",
+        "parameterTypes": []
+      },
+      {
+        "name": "getCommunicationStateSelectorFlag",
+        "parameterTypes": []
+      },
+      {
+        "name": "getCourseOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getCsUnit",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDisplay",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDsc",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLatitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLongitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMessage22",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMessageType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPositionAccuracy",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPositionAccurate",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRaimFlag",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawCourseOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawLatitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawLongitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawSpeedOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRegionalReserved1",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRegionalReserved2",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSecond",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSpeedOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTransponderClass",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTrueHeading",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.StandardSARAircraftPositionReport",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getAltitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getAssigned",
+        "parameterTypes": []
+      },
+      {
+        "name": "getCourseOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDataTerminalReady",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLatitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLongitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMessageType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPositionAccuracy",
+        "parameterTypes": []
+      },
+      {
+        "name": "getPositionAccurate",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRadioStatus",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRaimFlag",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawCourseOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawLatitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawLongitude",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawSpeedOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRegionalReserved",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSecond",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSpeedOverGround",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTransponderClass",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.StaticDataReport",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.asm.ApplicationSpecificMessage",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "getBinaryData",
+        "parameterTypes": []
+      },
+      {
+        "name": "getDesignatedAreaCode",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFunctionalId",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.asm.UnknownApplicationSpecificMessage",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.AISMessageType",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.AidType",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.CommunicationState",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "methods": [
+      {
+        "name": "getSyncState",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.IMO",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getIMO",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.ITDMACommunicationState",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getKeepFlag",
+        "parameterTypes": []
+      },
+      {
+        "name": "getNumberOfSlots",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSlotIncrement",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.MMSI",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getMMSI",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.ManeuverIndicator",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.NavigationStatus",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.PositionFixingDevice",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.SOTDMACommunicationState",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getNumberOfReceivedStations",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSlotNumber",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSlotOffset",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSlotTimeout",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUtcHour",
+        "parameterTypes": []
+      },
+      {
+        "name": "getUtcMinute",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.ShipType",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.SyncState",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.ais.messages.types.TransponderClass",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "dk.tbsalling.aismessages.nmea.messages.NMEAMessage",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getChecksum",
+        "parameterTypes": []
+      },
+      {
+        "name": "getEncodedPayload",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFillBits",
+        "parameterTypes": []
+      },
+      {
+        "name": "getFragmentNumber",
+        "parameterTypes": []
+      },
+      {
+        "name": "getMessageType",
+        "parameterTypes": []
+      },
+      {
+        "name": "getNumberOfFragments",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRadioChannelCode",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawMessage",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSequenceNumber",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTagBlock",
+        "parameterTypes": []
+      },
+      {
+        "name": "isValid",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "dk.tbsalling.aismessages.nmea.tagblock.NMEATagBlock",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true,
+    "methods": [
+      {
+        "name": "getDestinationId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getLineCount",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRawMessage",
+        "parameterTypes": []
+      },
+      {
+        "name": "getRelativeTime",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSentenceGrouping",
+        "parameterTypes": []
+      },
+      {
+        "name": "getSourceId",
+        "parameterTypes": []
+      },
+      {
+        "name": "getText",
+        "parameterTypes": []
+      },
+      {
+        "name": "getTimestamp",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "java.io.Serializable",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "java.lang.Comparable",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "java.lang.Float",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "java.lang.Number",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "java.lang.constant.Constable",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "java.lang.constant.ConstantDesc",
+    "queryAllDeclaredMethods": true
+  },
+  {
+    "name": "java.util.Optional",
+    "allDeclaredFields": true,
+    "queryAllDeclaredMethods": true,
+    "queryAllDeclaredConstructors": true
+  },
+  {
+    "name": "java.util.concurrent.atomic.AtomicBoolean",
+    "fields": [
+      {
+        "name": "value"
+      }
+    ]
+  },
+  {
+    "name": "java.util.concurrent.atomic.AtomicReference",
+    "fields": [
+      {
+        "name": "value"
+      }
+    ]
+  }
+]

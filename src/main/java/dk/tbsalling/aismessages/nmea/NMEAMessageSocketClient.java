@@ -23,13 +23,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.*;
 import java.util.function.Consumer;
+import java.util.logging.Logger;
 
-import static java.lang.System.Logger.Level.INFO;
+import static java.util.logging.Level.INFO;
 
 @Deprecated
 public class NMEAMessageSocketClient {
 
-	private static final System.Logger LOG = System.getLogger(NMEAMessageSocketClient.class.getName());
+	private static final Logger LOG = Logger.getLogger(NMEAMessageSocketClient.class.getName());
 
 	@SuppressWarnings("unused")
 	private NMEAMessageSocketClient() {

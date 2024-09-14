@@ -38,7 +38,7 @@ public class MMSI implements Serializable {
     /**
      * @deprecated Use {@link #intValue()} instead.
      */
-    @Deprecated(forRemoval = true)
+    @Deprecated
     public Integer getMMSI() {
         return Integer.valueOf(mmsi);
     }
